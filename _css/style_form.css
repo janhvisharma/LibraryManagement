@@ -1,0 +1,54 @@
+table, td, th{    
+    border: 1px solid black;
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    width: 40%;
+    margin: auto;
+}
+th, td{
+    padding: 15px;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 1em;
+}
+input[type="submit"]{
+    display:inline-block;
+    padding:0.2em;
+    margin:0 0.2em 0.2em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 1em;
+}
+input[type="submit"]:hover{
+    background-color:ivory;
+}
+input[type="text"],input[type="password"]{
+    height: 22px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+#msg{
+    text-align: center;
+    font-family: helvetica;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+}
+#register{
+    margin-top: 5px;
+    display: block;
+    width: 40%;
+    height: 30%;
+    float: right;
+}
+#login{
+    margin-top:15px;
+    margin-right: 20px;
+    height:29%;
+    display: block;
+    float: right;
+    width: 30%
+}

@@ -1,0 +1,55 @@
+#search{
+    margin: 0 auto;
+    width:40%;
+}
+input[type="text"]{
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+input[type="submit"]{
+    display:inline-block;
+    padding:0.2em;
+    margin:0 0.2em 0.2em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 1em;
+}
+input[type="submit"]:hover{
+    background-color:ivory;
+}
+#books{
+    margin: 0 auto;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#books td, #books th{
+    padding: 8px;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 1em;
+}
+
+#books tr:nth-child(even) {
+    background-color: gainsboro; 
+}
+
+#books th{
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+#msg{
+    text-align: center;
+    margin: 0;
+    font-family: helvetica;
+    font-size: 1em;
+    font-weight: bold;
+}
+
